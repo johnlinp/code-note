@@ -1,0 +1,88 @@
+#headDiv {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+    width: 100%;
+    background: #0066E3;
+    border-bottom: 15px solid #00306A;
+    height: 120px;
+}
+
+#bodyDiv {
+    position: absolute;
+    top: 135px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    background: #333333;
+    overflow: hidden;
+}
+
+#logoTable {
+    height: 120px;
+    border-width: 0px;
+    float: left;
+}
+
+#selectTable {
+    height: 100px;
+    border-width: 0px;
+    float: right;
+}
+
+#listTable {
+    float: right;
+}
+
+#logo {
+    width: 250px;
+    background: url('../fig/main/logo.png') no-repeat center;
+}
+
+#languageSelect {
+    width: 130px;
+    background: url('../fig/main/language.png') no-repeat bottom;
+}
+
+#semanticSelect {
+    width: 130px;
+    background: url('../fig/main/semantic.png') no-repeat bottom;
+}
+
+#block {
+    width: 15px;
+    height: 15px;
+}
+
+#languageListContainer {
+    width: 130px;
+}
+
+#semanticListContainer {
+    width: 130px;
+}
+
+#codeTable {
+    float: left;
+}
+
+#codeTitle {
+    background: #0066E3;
+}
+
+#codeContent {
+    background: #AAD0FF;
+    width: 600px;
+    height: 300px;
+    vertical-align: top;
+}
+
+#languageShow {
+}
+
+#codeShow {
+    font-family: "Consolas";
+}
+

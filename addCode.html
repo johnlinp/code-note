@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Add Code</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel="stylesheet" type="text/css" href="css/common.css" />
+        <link rel="stylesheet" type="text/css" href="css/addCode.css" />
+        <!--link rel="stylesheet" href="http://sexybuttons.googlecode.com/svn/trunk/sexybuttons.css" type="text/css" /-->
+        <!--script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script-->
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/addCode.js"></script>
+    </head>
+
+    <body>
+        <div id="containerDiv">
+            <div id="headDiv">
+                <table id="logoTable" border="0">
+                    <tr>
+                        <td id="logo"></td>
+                    </tr>
+                </table>
+            </div>
+            <div id="bodyDiv">
+                <table id="codeTable" border="0">
+                    <tr>
+                        <td></td>
+                        <td id="codeContent">
+                            <form method="post" action="php/addCode.php" id="">
+                                <textarea cols="50" rows="15" name="code" id="codeShow"></textarea>
+                                <select name="language" id="languageList" size=10></select>
+                                <select name="semantic" id="semanticList" size=10></select>
+                                <br>
+                                <input type="submit" value="改吧" />
+                            </form>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>
+
